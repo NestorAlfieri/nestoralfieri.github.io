@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: green;
+}
+
+@media (min-width: 560px) {
+  body {
+    background-color: red;
+  }
+}/*# sourceMappingURL=style.css.map */
