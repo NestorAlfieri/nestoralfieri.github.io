@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APOD NASA API</title>
+    <script src="./scripts/scriptApod.js"></script>
+    <script src="./scripts/util.js"></script>
+    <link rel="stylesheet" href="./styles/stylesApod.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="headerDiv">
+            <p id="divLogo"><img id="logoNasa" src="./assets/NASA_logo.svg.png"></p>
+            <span id="h1Div">
+                <h2> NASA Pictures </h2>
+                <h1>Random Astronomical Picture Of the Day.</h1>
+        </div>
+        </span>
+
+        </div>
+        <nav class="headerNav">
+            <a class="headerLink" href="./index.html">Visit Mars Rovers Home Page </a>
+
+        </nav>
+
+    </header>
+    <div class="wrapper">
+        <video autoplay muted loop id="myVideo">
+            <source src="./assets/701881476.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <div id="mainTextDiv">
+                <span><img class="telescopeIcon" src="./assets/telescopeIcon.png"></span>
+                <span class="mainText">Get a random selection of NASA´s Astronomical Picture of the Day (APOD).</span>                
+            </div>
+        </div>
+        <div id="navContainer">
+            <nav>
+                <button class="allBtns btn3">See random APOD</button>
+                <button class="allBtns btn4">Clear</button>
+            </nav>
+        </div>
+    </div>
+</body>
+
+</html>

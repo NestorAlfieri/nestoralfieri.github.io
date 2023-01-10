@@ -3,11 +3,16 @@
   margin: 0;
 }
 
-body {
-  background-color: green;
+.tech-icon {
+  height: 50px;
+  width: auto;
 }
 
-@media (min-width: 560px) {
+body {
+  background-color: rgb(224, 241, 232);
+}
+
+@media (min-width: 375px) {
   body {
     background-color: red;
   }

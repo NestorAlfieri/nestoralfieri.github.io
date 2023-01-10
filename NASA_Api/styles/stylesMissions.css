@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: beige;
+    background-color: black;
+    font-family: 'Abel', sans-serif;
+
+
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    padding-top: 20px;
+    left: 5vw;
+    background-color: black;
+    z-index: 1;
+    
+
+}
+
+#headerDiv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+
+}
+
+#logoNasa {
+    height: 115px;
+    width: auto;
+}
+.headerNav{
+    margin-bottom: 10px;
+    text-align: right;
+    position: relative;
+    right: 8vw;
+}
+.headerLink{
+    text-decoration: none;
+    font-size: 20px;
+    color: beige;
+    padding: 7px;       
+    border-radius: 5px;
+    font-family: 'Abel';
+      
+}
+.headerLink:hover{
+    background-color:  rgba(230, 76, 76,0.4);
+}
+h1 {
+    font-size: 3rem;
+    margin-top: 0;
+}
+h2{
+    font-size: 2rem;
+}
+main {
+    font-family: 'Abel', sans-serif;
+}
+
+#planetImgContainer {
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+
+
+}
+
+#backgroundPlanet {
+    width: 90vw;
+    position: relative;
+    left: 12vw;
+    -webkit-animation: floatBubble 3s normal ease-out;
+    opacity: 0.6;
+
+
+}
+
+@-webkit-keyframes floatBubble  {
+    0% {
+        top: 500px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+#mission {
+    font-size: 25px;
+}
+
+.about {
+    position: fixed;
+    height: 70vh;
+    top: 25vh;
+    margin-left: 5vw;
+    width: 350px;
+    padding: 5px 20px;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: rgb(44, 44, 44);
+    border-radius: 20px;
+    text-align: center;
+    background: rgba(7, 7, 7, 0.5);
+
+
+}
+
+.missionData {
+    margin-left: 20px;
+    text-align: center;
+    line-height: 1.2em;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.about span {
+    color: rgb(230, 76, 76);
+}
+
+.redColor {
+    color: rgb(230, 76, 76);
+    ;
+}
+
+.roverImg {
+    max-width: 250px;
+    height: 250px;
+    padding: 5px;
+    border-radius: 15px;
+
+}
+
+#input {
+    line-height: 25px;
+    width: 60px;
+    background: rgba(60, 60, 60, 0.5);
+    color: beige;
+    font-size: 1rem;
+
+}
+
+.inputForms {
+    font-size: 1.2rem;
+}
+
+#solDay {
+    font-size: 1rem;
+}
+
+.encabezadoDiv {
+    width: 20vw;
+    justify-content: left;
+    font-size: 20px;
+    position: absolute;
+    z-index: 5;
+    top: 15vh;
+    left: 40vw;
+    font-family: 'Abel', sans-serif;
+
+}
+
+.container {
+
+    margin-top: 20vh;
+    margin-left: 30vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 15px;
+    z-index: 2;
+
+
+}
+
+.container img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: dimgray;
+    border-width: 0.5px;
+    cursor: pointer;
+}
+
+.zoom {
+    position: relative;
+    transition: transform .3s;
+    z-index: 4;
+    -ms-transform: scale(2.5);
+    -webkit-transform: scale(2.5);
+    transform: scale(2.5);
+}
+
+.zoomOut {
+    transition: transform .3s;
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+#getImagesText {
+    position: fixed;
+    left: 33vw;
+    top: 29vh;
+    font-size: 50px;
+    font-weight: 600;
+    
+
+}
+
+#navContainer nav {
+    position: fixed;
+    bottom: 3vh;
+    left: 8.5vw;
+}
+
+
+
+#submit {
+    margin-top: 8px;
+    background: rgba(60, 60, 60, 0.5);
+    color: beige;
+    border-color: rgb(44, 44, 44);
+    border-width: 0.5px;
+    cursor: pointer;
+    padding: 5px 30px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Abel', sans-serif;
+    border-style: solid;
+}
+
+#submit:hover{
+    background-color:rgba(230, 76, 76,0.4); ;
+}
+.mensajeArrayVacio {
+    position: fixed;
+    font-size: 30px;
+    width: 60vw;
+    text-align: center;
+    padding-top: 30vh;
+  right: 18vw;
+}

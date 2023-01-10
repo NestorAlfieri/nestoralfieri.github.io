@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasa API</title>
+    <script src="./scripts/scriptSpirit.js"></script>
+    <script src="./scripts/util.js"></script>
+    <link rel="stylesheet" href="./styles/stylesMissions.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="headerDiv">
+            <p id="divLogo"><img id="logoNasa" src="./assets/NASA_logo.svg.png"></p>
+            <span id="h1Div">
+                
+                <h1>Mars Spirit Mission Archive</h1>
+                <h2> NASA Pictures </h2>
+                </span>
+            
+        </div>
+        <nav class="headerNav">
+            <a class="headerLink" href="./index.html">Back to Mission Control  </a>
+            <a class="headerLink" href="./apod.html">  Random Astronomical Picture</a>
+        </nav>
+            
+                <div id="solDay"></div>
+            </div>
+    </header>
+    <main>
+        <div id="planetImgContainer"><img id="backgroundPlanet" src="./assets/mars.jpg"></div>
+        <div class="about">
+            <p>Mision: <span id="mission"></span></p>
+            <img src="./assets/curiosity (1).jpg" class="roverImg">
+            <div id="contenedorMisionData">
+                <div class="missionData">
+                    <p>Launched: <span id="launch"></span></p>
+                    <p>Landed: <span id="landed"></span></p>
+                    <p>Mission duration: <span id="sols"></span></p>
+                    <p>Last active day: <span id="lastDay"></span></p>
+                    <p>Status: <span id="status"></span></p>
+                </div>
+            </div>
+            <form id="diaMision">
+                <label for="input">Mission day</label>
+                <input type="number" id="input" name="input">
+                <br>
+                <input type="submit" id="submit" value="Submit"class="allBtns enviar">
+            </form>
+        </div>
+        <div class="wrapper">
+            <div class="container"></div>
+            <p id="getImagesText">Get Rover Spirit images for each mission day</p>
+        </div>
+        </div>
+       <!-- <div id="navContainer">
+            <nav><button class="allBtns btn3">Back to Mission Control</button>
+            </nav>
+            </div>-->
+    </main>
+</body>
+
+</html>

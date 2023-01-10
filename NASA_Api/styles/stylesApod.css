@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*
+   border-style: solid;
+   border-color: dimgray;
+    */
+}
+
+body {
+    font-family: 'Abel';
+    color: beige;
+    background-color: black
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.3;
+    z-index: -1;
+
+}
+
+header {
+    background-color: black;
+  
+   z-index: 3;
+}
+
+ #headerDiv {
+    width: 95vw;     
+    display: flex;
+    align-items: center;
+    margin: 30px 0 0;
+    margin-left:10vw;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#logoNasa {
+    height: 100px;
+    margin-right: 15px;
+    width: auto;
+}
+.headerNav{
+   
+    text-align: right;
+    position: relative;
+    right: 8vw;
+    background-color: black;
+}
+.headerLink{
+    text-decoration: none;
+    font-size: 20px;
+    color: beige;  
+    font-family: 'Abel';
+    padding: 5px;     
+    border-radius: 5px;
+      
+}
+.headerLink:hover{
+    background-color: rgba(230, 76, 76,0.3);
+}
+
+#logoNasa {
+    height: 100px;
+    width: auto;
+}
+
+#navContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#navContainer nav {
+    position: fixed;
+    bottom:5vh; 
+    width:20vw; 
+    left:38vw;
+    display: flex;
+    justify-content: space-around;     
+}
+
+.allBtns {
+    background: rgba(60, 60, 60, 0.5);
+    color: beige;
+    border-color:beige;        
+    border-width: 0.5px;
+    border-color: rgb(27, 25, 25);
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Abel';
+    
+}
+.allBtns:hover{
+    background-color: rgba(173, 172, 172, 0.3);
+    
+}
+
+.apodDiv {
+    
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;   
+    margin:0 auto;
+    
+    
+}
+
+
+.container .apodDiv img {
+    max-height: 60vh;
+    max-width: 57vw;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 0.5;
+    border-color: rgb(27, 25, 25);
+    border-radius: 25px;
+   
+}
+
+.apodDescripcion {
+    max-height: 60vh;
+    max-width:42vw;
+    padding: 25px;
+    border-style: solid;
+    border-width: 0.5;
+    border-color: rgb(27, 25, 25);
+    border-radius: 25px;
+    background-color:rgba(27, 25, 25, 0.5); ;
+}
+
+#mainTextDiv{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 10vh;
+    margin-left:25vw;
+    width: 50vw;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: 'Abel', sans-serif;
+    text-shadow: rgb(75, 25, 101) 5px 5px 15px;
+
+}
+.telescopeIcon{
+    height: 40px;
+    width: auto;
+    display: inline;
+}

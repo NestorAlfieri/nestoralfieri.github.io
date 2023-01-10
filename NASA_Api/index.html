@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasa API</title>
+
+    <script src="https://kit.fontawesome.com/d58f8a33ee.js" crossorigin="anonymous"></script>
+    <script src="./scripts/scriptMarsMissions.js"></script>
+
+    <link rel="stylesheet" href="./styles/stylesIndex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="headerDiv">
+            <p id="divLogo"><img id="logoNasa" src="./assets/NASA_logo.svg.png"></p>
+            <span id="h1Div">
+
+                <h1>Mars Rovers <strong>Spirit</strong>, <strong>Opportunity</strong> & <strong>Curiosity</strong>
+                    Photos.</h1>
+                <h2> NASA Pictures </h2>
+            </span>
+            <nav class="headerNav">
+                <a class="headerLink" href="./marsSpirit.html">| Rover Spirit </a>
+                <a class="headerLink" href="./marsOpportunity.html">| Rover Opporunity </a>
+                <a class="headerLink" href="./marsCuriosity.html">| Rover Curiosity </a>
+                <a class="headerLink" href="./apod.html">| Random Astronomical Picture </a>
+            </nav>
+        </div>
+       
+    </header>
+    <main>
+        <div id="planetImgContainer">
+
+            <img id="backgroundPlanet" src="./assets/3RoversCaptura.jpg" usemap="#workmap">
+            <div id="textContent">
+                <p id="mainText">Search daily images sent by NASA´s Mars
+                    Rovers <strong>Spirit</strong>,<strong> Opportunity</strong> and <strong>Curiosity</strong>.</p>
+
+                <div id="secondText">
+                    <p class="bulletP">* Simply type de mission day and recibe the photos via the
+                        NASA´s web Api.</p>
+
+                    <p class="bulletP">* Search latest sol day for active mission
+                        <strong>Curiosity</strong> and get yesterdays
+                        photos from Mars!!
+                    </p>
+                </div>
+            </div>
+            <!--<div id="linksContainer">
+                <a href="./marsSpirit.html"><span class="roverSpan" id="spiritSpan">Rover Spirit</span></a>
+                <a href="./marsOpportunity.html"><span class="roverSpan" id="opportunitySpan">Rover
+                        Opportunity</span></a>
+                <a href="./marsCuriosity.html"><span class="roverSpan" id="curiositySpan">Rover Curiosity</span></a>
+            </div>-->
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="roverBanners">
+
+            <div id="contenedorMisionSpirit">
+                <div class="missionData">
+                    <a id="spiritLink" class="imgLinks" href="./marsSpirit.html">
+                        <img id="spiritImg" class="imagenRover twins" src="./assets/opportunityWhite.png">
+                        <div class="missionLinks">GO SEARCH !<p> mission <strong>Spirit</strong> archieves</p>
+                        </div>
+                    </a>
+                    <div class="cardDiv1">
+                        <p>Mision: <span id="mission1"></span></p>
+                        <p>Status: <span id="status1"></span></p>
+                        <p class="missionDescription">One of two rovers launched in 2003 to explore Mars and search for
+                            signs of past life, Spirit far outlasted her planned 90-day mission, lasting over six years.
+                        </p>
+
+                    </div>
+                    <div class="cardDiv2">
+                        <i class="fas fa-rocket"></i>
+                        <span>Launched (Earth): <span id="launch1"></span></span>
+                        <br>
+                        <i class="fas fa-meteor"></i>
+                        <span>Landed (Mars): <span id="landed1"></span></span>
+                        <br>
+                        <i class="fas fa-calendar"></i>
+                        <span>Mission duration: <span id="sols1"></span></span>
+                        <br>
+                        <i class="fas fa-satellite-dish"></i>
+                        <span>Last active day: <span id="lastDay1"></span></span>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+
+            <div id="contenedorMisionOpportunity">
+                <div class="missionData">
+                    <a id="opportunityLink" class="imgLinks" href="./marsOpportunity.html">
+                        <img id="opportunityImg" class="imagenRover twins" src="./assets/opportunityWhite.png">
+                        <div class="missionLinks">GO SEARCH !<p> <strong>Opportunity</strong> archieves</p>
+                        </div>
+                    </a>
+                    <div class="cardDiv1">
+                        <p>Mision: <span id="mission2"></span></p>
+                        <p>Status: <span id="status2"></span></p>
+                        <p class="missionDescription">Opportunity was the second of the two rovers launched
+                            in 2003 to land on Mars and begin traversing the Red Planet in search of signs
+                            of ancient water. No response has been received from Opportunity since Sol 5111 (June
+                            10, 2018), amid a planet-encircling dust storm on Mars.</p>
+                    </div>
+                    <div class="cardDiv2"><i class="fas fa-rocket"></i>
+                        <span>Launched (Earth): <span id="launch2"></span></span>
+                        <br>
+                        <i class="fas fa-meteor"></i>
+                        <span>Landed (Mars): <span id="landed2"></span></span>
+                        <br>
+                        <i class="fas fa-calendar"></i>
+                        <span>Mission duration: <span id="sols2"></span></span>
+                        <br>
+                        <i class="fas fa-satellite-dish"></i>
+                        <span>Last active day: <span id="lastDay2"></span></span>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div id="contenedorMisionCuriosity">
+                <div class="missionData">
+                    <a id="curiosityLink" class="imgLinks" href="./marsCuriosity.html">
+                        <div class="missionLinks">GO SEARCH !<p> <strong>Curiosity</strong> archieves</p>
+                        </div>
+                        <img id="curiosityImg" class="imagenRover loner" src="./assets/curiosityWhite.png">
+
+                    </a>
+                    <div class="cardDiv1">
+                        <p>Mision: <span id="mission3"></span></p>
+                        <p>Status: <span id="status3"></span></p>
+                        <p class="missionDescription">The Mars Science Laboratory mission's Curiosity rover landed in
+                            Mars' Gale Crater the evening of August 5, 2012, PDT (morning of August 6 EDT), using a
+                            series of complicated landing maneuvers never before attempted. </p>
+                    </div>
+                    <div class="cardDiv2"><i class="fas fa-rocket"></i>
+                        <span>Launched (Earth): <span id="launch3"></span></span>
+                        <br>
+                        <i class="fas fa-meteor"></i>
+                        <span>Landed (Mars): <span id="landed3"></span></span>
+                        <br>
+                        <i class="fas fa-calendar"></i>
+                        <span>Mission duration: <span id="sols3"></span></span>
+                        <br>
+                        <i class="fas fa-satellite-dish"></i>
+                        <span>Last active day: <span id="lastDay3"></span></span>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+
+
+        <!-- <div id="navContainer">
+            <nav><button class="allBtns btn1">APOD</button>
+
+            </nav>-->
+    </main>
+</body>
+
+</html>
