@@ -250,3 +250,73 @@ main {
     padding-top: 30vh;
   right: 18vw;
 }
+@media(max-width: 375px){
+
+    header{
+        position: initial;
+    }
+    #headerDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+        width: 100vw;
+    
+    }
+h1{
+    font-size: 1.4em;
+}
+h2{
+    display:none
+}
+.headerNav a:nth-child(1){
+    font-size: 15px;
+}
+.headerNav a:nth-child(2){display:none}
+.roverImg{
+    display:none
+}
+.about p:nth-child(1){
+    display:none
+}
+.about{
+    position:initial;    
+    width:85vw;
+    background: none;
+}
+#contenedorMisionData{
+    margin-top: 280px;
+}
+#getImagesText{
+    font-size: 25px;
+    position:absolute;
+    left:12vw;
+    top:35vh;
+    text-align: center;
+    text-shadow: black 5px 5px 10px;
+    width: 70vw;    
+}   
+#backgroundPlanet{
+    left:7vw;
+}
+.encabezadoDiv{
+width: 70vw;
+justify-content: left;
+font-size: 20px;
+position: absolute;
+z-index: 5;
+top: 97vh;
+left: 20vw;
+font-family: 'Abel', sans-serif;
+}
+.container{
+    margin-top: 8vh;
+    margin-left: 6vw;    
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 15px;    
+}
+.container.div{
+    width: fit-content;
+}
+}
