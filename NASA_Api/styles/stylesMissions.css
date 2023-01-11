@@ -251,7 +251,12 @@ main {
   right: 18vw;
 }
 @media(max-width: 375px){
-
+    *{
+        text-align: center;
+    }
+#logoNasa{
+    height: 90px;
+}
     header{
         position: initial;
     }
@@ -260,7 +265,7 @@ main {
         flex-direction: column;
         align-items: center;
       
-        width: 100vw;
+       
     
     }
 h1{
@@ -287,6 +292,14 @@ h2{
 }
 #contenedorMisionData{
     margin-top: 280px;
+}
+
+.mensajeArrayVacio{
+    position: relative;
+    bottom: 640px;
+    left: 12vw;
+    text-shadow: black 5px 5px 10px;
+    font-size: 25px;
 }
 #getImagesText{
     font-size: 25px;
@@ -315,13 +328,13 @@ justify-content: left;
 font-size: 20px;
 position: absolute;
 z-index: 5;
-top: 97vh;
-left: 20vw;
+top: 88vh;
+left: 13vw;
 font-family: 'Abel', sans-serif;
 }
 .container{
     margin-top: 8vh;
-    margin-left: 6vw;    
+    margin-left: 1vw;    
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 15px;    
