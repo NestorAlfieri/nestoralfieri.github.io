@@ -283,6 +283,7 @@ h2{
     position:initial;    
     width:85vw;
     background: none;
+    height: 65vh;
 }
 #contenedorMisionData{
     margin-top: 280px;
@@ -298,6 +299,15 @@ h2{
 }   
 #backgroundPlanet{
     left:7vw;
+}
+.missionData{
+    position: relative;
+    bottom: 40px;
+    font-size: 18px;
+}
+#diaMision{
+    position:relative;
+    bottom:40px;
 }
 .encabezadoDiv{
 width: 70vw;
