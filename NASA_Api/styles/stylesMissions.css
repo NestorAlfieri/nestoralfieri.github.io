@@ -27,6 +27,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    width:95vw;
     
 }
 
@@ -296,8 +297,8 @@ h2{
 
 .mensajeArrayVacio{
     position: relative;
-    bottom: 640px;
-    left: 12vw;
+    bottom: 670px;
+    left: 15vw;
     text-shadow: black 5px 5px 10px;
     font-size: 25px;
 }
@@ -305,22 +306,24 @@ h2{
     font-size: 25px;
     position:absolute;
     left:12vw;
-    top:35vh;
+    top:30vh;
     text-align: center;
     text-shadow: black 5px 5px 10px;
     width: 70vw;    
 }   
 #backgroundPlanet{
     left:7vw;
+    
 }
 .missionData{
     position: relative;
-    bottom: 40px;
+    bottom: -70px;
     font-size: 18px;
 }
 #diaMision{
-    position:relative;
-    bottom:40px;
+    position: relative;
+    bottom: 28vh;
+    font-size: 35px;
 }
 .encabezadoDiv{
 width: 70vw;

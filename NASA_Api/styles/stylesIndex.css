@@ -285,15 +285,15 @@ main {
         margin:20px 0 ;
     }
    h1 {
-    display: none;
+    font-size: 1.6em;;
    }
    h2{
-    font-size: 1.2em;
-    text-align: center;    
+    font-size: 1.6em;
+       
    }
    .headerNav {
-    position: relative;
-   
+    position: relative;      
+    display: none;
    }
    .headerNav a{
     display: block;
