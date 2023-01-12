@@ -315,7 +315,7 @@ h2{
 .missionData{
     position: relative;
     bottom: -70px;
-    font-size: 18px;
+    padding-bottom: 20px;
 }
 #diaMision{
     position: relative;
