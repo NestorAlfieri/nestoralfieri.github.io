@@ -315,13 +315,15 @@ h2{
 }
 .missionData{
     position: relative;
-    bottom: -50px;
+    bottom: -6vh;
     padding-bottom: 20px;
+    left:3vw;
 }
 #diaMision{
     position: relative;
     bottom: 28vh;
     font-size: 35px;
+    left:4vw;
 }
 .encabezadoDiv{
 width: 70vw;
