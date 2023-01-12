@@ -301,9 +301,9 @@ h2{
     font-size: 25px;
 }
 #getImagesText{
-    font-size: 25px;
+    font-size: 30px;
     position:absolute;
-    left:8vw;
+    left:11vw;
     top:34vh;
     text-align: center;
     text-shadow: black 5px 5px 10px;
