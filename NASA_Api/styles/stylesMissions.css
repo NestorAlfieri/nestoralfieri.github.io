@@ -287,6 +287,7 @@ h2{
     width:85vw;
     background: none;
     height: 65vh;
+    border-style: none;
 }
 #contenedorMisionData{
     margin-top: 280px;
