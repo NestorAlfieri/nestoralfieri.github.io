@@ -68,6 +68,7 @@ main {
     position: absolute;
     overflow: hidden;
     z-index: -1;
+    left:3vw;
 
 
 }
@@ -264,7 +265,8 @@ main {
     #headerDiv {
         display: flex;
         flex-direction: column;
-        align-items: center;           
+        align-items: center;
+        width: initial;           
     }
 h1{
     font-size: 1.4em;
@@ -304,7 +306,7 @@ h2{
     font-size: 30px;
     position:absolute;
     left:11vw;
-    top:34vh;
+    top:25vh;
     text-align: center;
     text-shadow: black 5px 5px 10px;
     width: 77vw;    
@@ -314,15 +316,17 @@ h2{
     
 }
 .missionData{
-    position: relative;
-    bottom: -6vh;
+    position: relative;    
     padding-bottom: 20px;
     left:3vw;
+    font-size: 17px;
 }
+
+
 #diaMision{
     position: relative;
-    bottom: 28vh;
-    font-size: 35px;
+    bottom: 30vh;
+    font-size: 30px;
     left:4vw;
 }
 .encabezadoDiv{
