@@ -306,7 +306,7 @@ h2{
     font-size: 30px;
     position:absolute;
     left:11vw;
-    top:25vh;
+    top:28vh;
     text-align: center;
     text-shadow: black 5px 5px 10px;
     width: 77vw;    
@@ -325,7 +325,7 @@ h2{
 
 #diaMision{
     position: relative;
-    bottom: 30vh;
+    bottom: 33vh;
     font-size: 30px;
     left:4vw;
 }
